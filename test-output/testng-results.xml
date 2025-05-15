@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-14T10:49:48 IST" name="Default suite" finished-at="2025-05-14T10:49:48 IST" duration-ms="170">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestFirstAnnotaion.TestLogo()[pri:0, instance:TestNgAnnotation.TestFirstAnnotaion@3cd3e762]" name="TestLogo" class="TestNgAnnotation.TestFirstAnnotaion"/>
+      </group> <!-- Sanity -->
+      <group name="Smoke">
+        <method signature="TestFirstAnnotaion.TestPage()[pri:0, instance:TestNgAnnotation.TestFirstAnnotaion@3cd3e762]" name="TestPage" class="TestNgAnnotation.TestFirstAnnotaion"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-05-14T10:49:48 IST" name="Default test" finished-at="2025-05-14T10:49:48 IST" duration-ms="170">
+      <class name="TestNgAnnotation.TestFirstAnnotaion">
+        <test-method is-config="true" signature="login()[pri:0, instance:TestNgAnnotation.TestFirstAnnotaion@3cd3e762]" started-at="2025-05-14T10:49:48 IST" name="login" finished-at="2025-05-14T10:49:48 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="TestLogo()[pri:0, instance:TestNgAnnotation.TestFirstAnnotaion@3cd3e762]" started-at="2025-05-14T10:49:48 IST" name="TestLogo" finished-at="2025-05-14T10:49:48 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogo -->
+        <test-method is-config="true" signature="LogOut()[pri:0, instance:TestNgAnnotation.TestFirstAnnotaion@3cd3e762]" started-at="2025-05-14T10:49:48 IST" name="LogOut" finished-at="2025-05-14T10:49:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestNgAnnotation.TestFirstAnnotaion@3cd3e762]" started-at="2025-05-14T10:49:48 IST" name="login" finished-at="2025-05-14T10:49:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="TestPage()[pri:0, instance:TestNgAnnotation.TestFirstAnnotaion@3cd3e762]" started-at="2025-05-14T10:49:48 IST" name="TestPage" finished-at="2025-05-14T10:49:48 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPage -->
+        <test-method is-config="true" signature="LogOut()[pri:0, instance:TestNgAnnotation.TestFirstAnnotaion@3cd3e762]" started-at="2025-05-14T10:49:48 IST" name="LogOut" finished-at="2025-05-14T10:49:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+      </class> <!-- TestNgAnnotation.TestFirstAnnotaion -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
